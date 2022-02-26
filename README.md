@@ -2,9 +2,11 @@
 
 A great lil browser-based flashcards app, with lots of features (add card, delete all cards, export card data, import card date, shuffle cards)
 
+Demo here https://robthedataanalyst.com/demo/flashcardjs/
+
 **Q. Did you make this Flashcard JS web app all by yourself?**
 
-A. I got the idea and starting code from @iamcodefoxx. I didn't want to have to start from scratch, and this was a very well writien, pure JavaScript solution. Thanks and props to Miguel for some great code!
+A. I got the idea and starting code from @iamcodefoxx. I didn't want to have to start from scratch, and this was a very well written, pure JavaScript solution. Thanks and props to Miguel for some great code!
 
 https://github.com/iamcodefoxx/Flashcards?ref=morioh.com&utm_source=morioh.com
 
