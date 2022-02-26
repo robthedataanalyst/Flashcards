@@ -86,7 +86,7 @@ header{background-color: #fff;}
   height: 200px;
   word-wrap: break-word;
   margin: 10px; 
-  background:#fff;
+  background:#F7FAA1;
   cursor: pointer;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.9);
 }
@@ -118,4 +118,25 @@ header{background-color: #fff;}
 
   .flashcard{width: 100%;}
 
+}
+
+/*  Rob Mods */
+#export, #import, #help {
+  display:  none;
+}
+
+#export_area, #import_area {
+  width:  400px;
+  height:  200px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.9);
+}
+
+textarea:focus {
+  background-color: #B4F6A4;
+}
+
+.hr_rule {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
