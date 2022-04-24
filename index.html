@@ -8,6 +8,8 @@ https://github.com/iamcodefoxx/Flashcards?ref=morioh.com&utm_source=morioh.com
 
 Modified by Rob Dunsmuir
 -->
+<meta http-equiv="cache-control" content="no-cache"/>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" type="image/png" href="flashcard.png" />
@@ -22,8 +24,6 @@ Modified by Rob Dunsmuir
       <div class="container">
         <div id="header">
           <h1>Flashcards JS</h1>
-                    <a href="sample flashcards.txt" target="_blank">Look for sample flashcard data to import?</a>
-
           <div>
             <button onclick="shuffleCards();">Shuffle</button>
             <button id="show_card_box">Add Card</button>
@@ -31,6 +31,7 @@ Modified by Rob Dunsmuir
             <button id="export_cards">Export</button>
             <button id="import_cards">Import</button>
             <button id="help_btn">Help</button>
+            <button id="clear_btn">Clear</button>
           </div>
         </div>
       </div>
@@ -108,7 +109,11 @@ Modified by Rob Dunsmuir
           <p><strong>Q. How are the flash cards saved when I add them?</strong></p>
           <p>A. The flashcard data is saved in <em>localstorage</em> which is like a browser cookie.</p>
           <p><strong>Q. Did you make this Flashcard JS web app all by yourself?</strong></p>
-          <p>A. I got the idea and starting code from <a href="https://github.com/iamcodefoxx/Flashcards?ref=morioh.com&utm_source=morioh.com" target="_blank">Miguel Nunez (iamcodefoxx)</a>. I didn't want to have to start from scratch, and this was a very well written, pure JavaScript solution. Thanks and props to Miguel for some great code!</p>
+          <p>A. I got the idea and starting code from <a href="https://github.com/iamcodefoxx/Flashcards?ref=morioh.com&utm_source=morioh.com" target="_blank">Miguel Nunez (iamcodefoxx)</a>. I didn't want to have to start from scratch, and this was a very well writien, pure JavaScript solution. Thanks and props to Miguel for some great code!</p>
+
+          
+* Thank you!
+
           <div>
             <button id="close_help_box">Close</button>
           </div>
@@ -118,5 +123,6 @@ Modified by Rob Dunsmuir
   </main>
   
   <script src="script.js"></script>
+
 </body>
 </html>

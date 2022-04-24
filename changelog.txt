@@ -1,0 +1,43 @@
+Change Log
+
+Updates to index.html
+- added an import button
+- added an export button
+- added a delete confirmation prompt to the Delete button
+- added an import div with textarea, remain hidden until clicked
+- added an export div with textarea, remain hidden until clicked
+= added a shuffle button to shuffle the cards once loaded
+- added a highlight button to export form div
+- added a help button & help section for usability
+
+Updates to script.js
+- added JavaScript code to display flashcard data in export textarea
+- added JavaScript code to take pasted flashcard data in import textarea and populate the contentArray variable to be used for local storage, and reload the page to show imported flashcards
+- added JavaScript code for deletion code, sets a boolean variable with result, this result is checked before deletion code is run
+- added JavaScript shuffle function to shuffle the cards data and set it into local storage, reload the page
+- added a highlight text function to highlight text in the export field when exporting flashcard data
+- added copy to clipboard function which runs after export text has been highlighted
+
+Updates to style.css
+- added customized styles to styles.css
+- added style for textarea focus change background color
+
+Apr 8, 2022
+- added div id in JS
+- added JS to index.html to detect right mouse click and change color of div to green (for flagging questions you know/does not save color state)
+
+Apr 19, 2022
+- moved test code for coloring card background when known to scripts.js
+- added code to scripts.js to save to sessionStorage, so we can have multiple tabs with different cards in them and select the cards if known
+- added code to save card div ids if known, and will restore on tab refresh
+- added button to clear known cards storage only
+
+Apr 21, 2022
+- added fix for flashcard container becoming highlighted
+- added to scripts.js, index.html for JS prompt to gather subject name for H1 and title tag update
+
+April 22, 2022
+- added functionality to scripts.js to deselect flashcards; updates background color and removes from known array
+- added to scripts.js to clear known cards on shuffl
+- save title to local storage to stop prompting on every page reload
+- fixed issue with context menu popping up on first right click
