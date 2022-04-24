@@ -4,6 +4,8 @@ A great lil browser-based flashcards app, with lots of features (add card, delet
 
 Demo here https://robthedataanalyst.com/demo/flashcardjs/
 
+Demo flashcards to use can be found here https://robthedataanalyst.com/demo/flashcardjs/sample_flashcards.txt
+
 **Q. Did you make this Flashcard JS web app all by yourself?**
 
 A. I got the idea and starting code from @iamcodefoxx. I didn't want to have to start from scratch, and this was a very well written, pure JavaScript solution. Thanks and props to Miguel for some great code!
